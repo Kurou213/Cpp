@@ -20,5 +20,5 @@ main(){
             printf("%d x %d = %d\n", N, i, N*i);
         }
     }
-    Sleep(1000);
+    
 }
