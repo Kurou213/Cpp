@@ -74,5 +74,6 @@ main()
 		for(int j = 0; j < colB; j++)		
 			printf("\t%d", matAB[i][j]);
 	puts("\n");
-	}			
+	}
+				
 }//fim programa
