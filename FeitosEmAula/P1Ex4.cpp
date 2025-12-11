@@ -23,5 +23,6 @@ main()
 	printf("\nb %d", b);
 	printf("\npim: %d", pim);
 	printf("\nQtas vezes passou no laco: %d", cont);
+	
     
 }//FIM PROGRAMA

@@ -32,31 +32,38 @@ main()
 	puts("\n");
 }
 puts("\nElementos da diagonal Principal (DP): ");
+
 for(i = 0; i < 3; i++)
 	for(j = 0; j < 3; j++)
 		if(i == j)
 			printf("%d ", mat[i][j]);
 puts("\nElementos da diagonal Secundaria (DS): ");
+
 for(i = 0; i < 3; i++)
 	for(j = 0; j < 3; j++)
 		 if(i + j == ordem - 1)
 		 	printf("%d ", mat[i][j]);
+
 puts("\nElementos Acima da (DP): ");
+
 for(i = 0; i < 3; i++)
 	for(j = 0; j < 3; j++)			
 		 if(i < j)
 		 	printf("%d ", mat[i][j]);
 puts("\nElementos Abaixo da (DP): ");
+
 for(i = 0; i < 3; i++)
 	for(j = 0; j < 3; j++)			
 		 if(i > j)
 			printf("%d ", mat[i][j]);
 puts("\nElementos acima da (DS): ");
+
 for(i = 0; i < 3; i++)
 	for(j = 0; j < 3; j++)
 		if(i + j < ordem - 1)
 			printf("%d ", mat[i][j]);		
 puts("\nElementos abaixo da (Ds): ");
+
 for(i = 0; i < 3; i++)
 	for(j = 0; j < 3; j++)
 		if(i + j > ordem - 1)

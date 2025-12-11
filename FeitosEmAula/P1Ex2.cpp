@@ -20,5 +20,6 @@ main()
 		printf("\nResultado %d", num * 3);
 	else
 		printf("\nResultado %d", num * 2);
+		
         
 }//fim programa
