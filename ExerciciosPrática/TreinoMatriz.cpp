@@ -71,4 +71,4 @@ main()
         printf("\nQuantidade de numeros impares: %d", qtdImpares);
 
 
-}
+}//fim programa
