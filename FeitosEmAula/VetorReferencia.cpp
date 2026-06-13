@@ -2,17 +2,17 @@
 	Name:  VetorReferencia.cpp
 	Author: Vinicius Lima 
 	Date: 16/03/26 09:44
-	Description: Programa para implementar operações com arrays
-	unidimensionais dentro de funções
+	Description: Programa para implementar operaï¿½ï¿½es com arrays
+	unidimensionais dentro de funï¿½ï¿½es
 */
-//seção de importação de bibliotecas
+//secao de importacao de bibliotecas
 #include <stdio.h>
 
-//Seção de prototipação
+//Secao de prototipacao
 void imprimirVetG();
 void imprimirVetGContrario();
 
-//vetor global - variáveis globais
+//vetor global - variaveis globais
 int vetG [] = {3, 9, 5, 8, 1};
 int tam = 0;
 main()
@@ -25,7 +25,7 @@ main()
 	imprimirVetGContrario();
 }//FIM PROGRAMA
 
-//Função para imprimir o vetor
+//Funï¿½ï¿½o para imprimir o vetor
 void imprimirVetG()
 {
 	puts("\n\nConteudo do vetor vetG: ");
@@ -33,7 +33,7 @@ void imprimirVetG()
 		printf("%d|", vetG[i]);
 			
 }
-//Função para imprimir o vetor vetG ao contrário
+//Funcao para imprimir o vetor vetG ao contrario
 void imprimirVetGContrario()
 {
 	puts("\nConteudo do vetor vetG ao contrario: ");
