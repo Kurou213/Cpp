@@ -1,0 +1,20 @@
+# Executáveis
+*.exe
+
+# Objetos compilados
+*.o
+*.obj
+
+# Bibliotecas
+*.a
+*.lib
+*.dll
+
+# Arquivos temporários
+*.tmp
+
+# Pastas comuns de build
+build/
+bin/
+Debug/
+Release/
